@@ -1,4 +1,4 @@
-# FocusFlow
+# 🚀 FocusFlow
 
 A modern productivity web application focused on deep work, focus sessions, habit tracking, and personal performance analytics.
 
@@ -6,25 +6,25 @@ A modern productivity web application focused on deep work, focus sessions, habi
 
 ---
 
-# Overview
+# ✨ Overview
 
 FocusFlow is a productivity-focused web application inspired by techniques like Pomodoro and habit tracking systems.
 
 The application helps users:
 
-* stay focused during work or study sessions,
-* reduce distractions,
-* build consistent habits,
-* track productivity over time,
-* visualize progress through dashboards and history.
+* 🎯 Stay focused during work or study sessions
+* 🧠 Reduce distractions
+* 🔥 Build consistent habits
+* 📊 Track productivity over time
+* 📈 Visualize progress through dashboards and history
 
-This project is being built as a practical React + TypeScript learning project with real-world architecture and scalable front-end patterns.
+This project is being built as a practical React + TypeScript learning project using scalable frontend architecture and real-world development patterns.
 
 ---
 
-# Main Features
+# 🧩 Main Features
 
-## Focus Sessions
+## ⏳ Focus Sessions
 
 * Create focus sessions
 * Define custom durations
@@ -34,7 +34,7 @@ This project is being built as a practical React + TypeScript learning project w
 
 ---
 
-## Habit Tracking
+## ✅ Habit Tracking
 
 * Create daily habits
 * Mark habits as completed
@@ -43,7 +43,7 @@ This project is being built as a practical React + TypeScript learning project w
 
 ---
 
-## Dashboard
+## 📊 Dashboard
 
 * Total focus time
 * Completed sessions
@@ -52,7 +52,7 @@ This project is being built as a practical React + TypeScript learning project w
 
 ---
 
-## History
+## 🕘 History
 
 * Session history
 * Status tracking
@@ -61,7 +61,7 @@ This project is being built as a practical React + TypeScript learning project w
 
 ---
 
-## Settings
+## ⚙️ Settings
 
 * Focus duration customization
 * Break duration configuration
@@ -70,7 +70,7 @@ This project is being built as a practical React + TypeScript learning project w
 
 ---
 
-## Theme System
+## 🌙 Theme System
 
 * Dark mode
 * Light mode
@@ -78,7 +78,7 @@ This project is being built as a practical React + TypeScript learning project w
 
 ---
 
-# Tech Stack
+# 🛠 Tech Stack
 
 ## Frontend
 
@@ -120,7 +120,7 @@ This project is being built as a practical React + TypeScript learning project w
 
 ---
 
-# Project Goals
+# 🎯 Project Goals
 
 This project was created to practice and improve:
 
@@ -135,9 +135,9 @@ This project was created to practice and improve:
 
 ---
 
-# Folder Structure
+# 📁 Folder Structure
 
-```txt
+```txt id="kk7jxy"
 src/
 ├── assets/
 ├── components/
@@ -156,7 +156,7 @@ src/
 
 ---
 
-# Planned Features
+# 🧪 Planned Features
 
 ## Version 1
 
@@ -184,7 +184,7 @@ src/
 
 ---
 
-# Design Inspiration
+# 🎨 Design Inspiration
 
 Inspired by productivity and focus applications such as:
 
@@ -194,65 +194,68 @@ Inspired by productivity and focus applications such as:
 
 ---
 
-# Installation
+# 🚀 Getting Started
 
 Clone the repository:
 
-```bash
+```bash id="n1gl19"
 git clone <your-repository-url>
 ```
 
 Enter the project folder:
 
-```bash
+```bash id="pjlwmj"
 cd focusflow
 ```
 
 Install dependencies:
 
-```bash
+```bash id="xjlwmn"
 npm install
 ```
 
 Start development server:
 
-```bash
+```bash id="gt2nd0"
 npm run dev
 ```
 
 ---
 
-# Build
+# 📦 Build
 
-```bash
+```bash id="h4evvz"
 npm run build
 ```
 
 ---
 
-# Preview Production Build
+# 👀 Preview Production Build
 
-```bash
+```bash id="i4o6x5"
 npm run preview
 ```
 
 ---
 
-# Deployment
+# 📚 Learning Focus
 
-Recommended platforms:
+This project is also being used to explore:
 
-* [Vercel](https://vercel.com?utm_source=chatgpt.com)
-* [Netlify](https://www.netlify.com?utm_source=chatgpt.com)
-
----
-
-# Author
-
-Developed as a practical learning and portfolio project focused on modern React ecosystem architecture and frontend engineering best practices.
+* scalable React architecture,
+* clean component design,
+* frontend engineering practices,
+* state management patterns,
+* real-world project organization.
 
 ---
 
-# License
+# 👨‍💻 Author
+
+Developed as a practical learning and portfolio project focused on the modern React ecosystem and frontend engineering best practices.
+
+---
+
+# 📄 License
 
 This project is licensed under the MIT License.
