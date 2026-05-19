@@ -2,8 +2,6 @@
 
 A modern productivity web application focused on deep work, focus sessions, habit tracking, and personal performance analytics.
 
-![FocusFlow Preview](./preview.png)
-
 ---
 
 # ✨ Overview
