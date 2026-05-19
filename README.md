@@ -1,75 +1,258 @@
-# React + TypeScript + Vite
+# FocusFlow
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern productivity web application focused on deep work, focus sessions, habit tracking, and personal performance analytics.
 
-Currently, two official plugins are available:
+![FocusFlow Preview](./preview.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+# Overview
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+FocusFlow is a productivity-focused web application inspired by techniques like Pomodoro and habit tracking systems.
 
-Note: This will impact Vite dev & build performances.
+The application helps users:
 
-## Expanding the ESLint configuration
+* stay focused during work or study sessions,
+* reduce distractions,
+* build consistent habits,
+* track productivity over time,
+* visualize progress through dashboards and history.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+This project is being built as a practical React + TypeScript learning project with real-world architecture and scalable front-end patterns.
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+---
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+# Main Features
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+## Focus Sessions
+
+* Create focus sessions
+* Define custom durations
+* Start / stop timers
+* Track completed and interrupted sessions
+* Real-time countdown
+
+---
+
+## Habit Tracking
+
+* Create daily habits
+* Mark habits as completed
+* Track consistency
+* Visual productivity feedback
+
+---
+
+## Dashboard
+
+* Total focus time
+* Completed sessions
+* Productivity streaks
+* Habit completion metrics
+
+---
+
+## History
+
+* Session history
+* Status tracking
+* Sorting and filtering
+* Productivity timeline
+
+---
+
+## Settings
+
+* Focus duration customization
+* Break duration configuration
+* Theme preferences
+* Persistent application settings
+
+---
+
+## Theme System
+
+* Dark mode
+* Light mode
+* Persistent user preference
+
+---
+
+# Tech Stack
+
+## Frontend
+
+* React
+* TypeScript
+* Vite
+* React Router
+
+---
+
+## State Management
+
+* Context API
+* useReducer
+* useState
+* useEffect
+
+---
+
+## Styling
+
+* CSS Modules
+* Global CSS
+* Responsive Design
+
+---
+
+## Persistence
+
+* localStorage
+
+---
+
+## Additional Tools
+
+* React Toastify
+* Web Workers
+* date-fns
+
+---
+
+# Project Goals
+
+This project was created to practice and improve:
+
+* React architecture
+* Component composition
+* Global state management
+* Reducer patterns
+* TypeScript scalability
+* Frontend project organization
+* Performance optimization
+* Responsive UI development
+
+---
+
+# Folder Structure
+
+```txt
+src/
+├── assets/
+├── components/
+├── contexts/
+├── layouts/
+├── models/
+├── pages/
+├── reducers/
+├── router/
+├── styles/
+├── utils/
+├── workers/
+├── App.tsx
+└── main.tsx
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+---
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+# Planned Features
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+## Version 1
+
+* [ ] Focus timer
+* [ ] Session history
+* [ ] Habit tracking
+* [ ] Dashboard
+* [ ] Dark/light theme
+* [ ] Persistent local storage
+* [ ] Responsive design
+
+---
+
+## Future Improvements
+
+* [ ] Authentication
+* [ ] Cloud sync
+* [ ] User accounts
+* [ ] Statistics and charts
+* [ ] Notifications
+* [ ] Sound effects
+* [ ] PWA support
+* [ ] Mobile app version
+* [ ] AI productivity assistant
+
+---
+
+# Design Inspiration
+
+Inspired by productivity and focus applications such as:
+
+* Forest
+* Todoist
+* Habitica
+
+---
+
+# Installation
+
+Clone the repository:
+
+```bash
+git clone <your-repository-url>
 ```
+
+Enter the project folder:
+
+```bash
+cd focusflow
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start development server:
+
+```bash
+npm run dev
+```
+
+---
+
+# Build
+
+```bash
+npm run build
+```
+
+---
+
+# Preview Production Build
+
+```bash
+npm run preview
+```
+
+---
+
+# Deployment
+
+Recommended platforms:
+
+* [Vercel](https://vercel.com?utm_source=chatgpt.com)
+* [Netlify](https://www.netlify.com?utm_source=chatgpt.com)
+
+---
+
+# Author
+
+Developed as a practical learning and portfolio project focused on modern React ecosystem architecture and frontend engineering best practices.
+
+---
+
+# License
+
+This project is licensed under the MIT License.
