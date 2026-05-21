@@ -1,7 +1,12 @@
+import './styles/theme.css'
+import './styles/global.css'
+import { Heading } from './components/Heading/Heading.tsx'
+
+
 export function App() {
     return (
         <>
-            <h1>FocusFlow</h1>
+            <Heading />
         </>
     )
 }
