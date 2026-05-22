@@ -1,41 +1,98 @@
 :root {
-  /* Colors */
-  --gray-100: #e6e9f0;
-  --gray-200: #cdd3e1;
-  --gray-300: #aab3cc;
-  --gray-400: #555f7d;
-  --gray-500: #454f6a;
-  --gray-600: #363d56;
-  --gray-700: #272f43;
-  --gray-800: #181f2e;
-  --gray-900: #0a0f1a;
+  /* =========================
+     PRIMARY COLORS
+  ========================= */
 
-  --bg-primary-dark: #4f46e5;
-  --bg-primary-light: #4338ca;
+  --color-primary: #7c5cff;
+  --color-primary-light: #9b84ff;
+  --color-primary-dark: #5a3fe0;
 
-  --primary-light: #818cf8;
+  --color-secondary: #29d3ff;
+  --color-secondary-dark: #14b8e6;
 
-  --sucess: #22c55e;
-  --warning: #eab308;
-  --error: #991b1b;
-  --info: #0ea5e9;
+  --color-accent: #b15cff;
 
-  --sequence: #a840eb;
+  /* =========================
+     DARK THEME
+  ========================= */
 
-  --link-color: #19b981;
-  --link-hover: #0b8a69;
+  --dark-bg: #050816;
+  --dark-surface: #0b1220;
+  --dark-surface-2: #111827;
+  --dark-surface-3: #1a2235;
 
-  --text-over-primary: #0a0f1a;
-  --text-over-primary-dark: #e6e9f0;
-  --text-over-primay-light: #0a0f1a;
-  --text-over-sucess: #0a0f1a;
-  --text-over-warning: #0a0f1a;
-  --text-over-error: #e6e9f0;
-  --text-over-info: #0a0f1a;
+  --dark-border: #222c42;
 
-  --text-default: #e6e9f0;
-  --text-muted: #aab3cc;
+  --dark-text: #f5f7ff;
+  --dark-text-secondary: #a9b2c7;
+  --dark-text-muted: #6d7890;
 
-  --disable: #555f7d;
-  --text-disabled: #aab3cc;
+  /* =========================
+     LIGHT THEME
+  ========================= */
+
+  --light-bg: #f5f7ff;
+  --light-surface: #ffffff;
+  --light-surface-2: #eef2ff;
+  --light-surface-3: #dde5ff;
+
+  --light-border: #d6def5;
+
+  --light-text: #111827;
+  --light-text-secondary: #4b5563;
+  --light-text-muted: #7b8498;
+
+  /* =========================
+     STATUS COLORS
+  ========================= */
+
+  --success: #22c55e;
+  --warning: #f59e0b;
+  --danger: #ef4444;
+  --info: #3b82f6;
+
+  /* =========================
+     GRADIENTS
+  ========================= */
+
+  --gradient-primary: linear-gradient(
+    135deg,
+    #7c5cff 0%,
+    #29d3ff 100%
+  );
+
+  --gradient-surface: linear-gradient(
+    180deg,
+    #0b1220 0%,
+    #111827 100%
+  );
+
+  /* =========================
+     SHADOWS
+  ========================= */
+
+  --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.15);
+
+  --shadow-md: 0 8px 24px rgba(0, 0, 0, 0.25);
+
+  --shadow-lg: 0 12px 32px rgba(0, 0, 0, 0.35);
+
+  --shadow-glow: 0 0 20px rgba(124, 92, 255, 0.35);
+
+  /* =========================
+     BORDER RADIUS
+  ========================= */
+
+  --radius-sm: 0.5rem;
+  --radius-md: 1rem;
+  --radius-lg: 1.5rem;
+  --radius-xl: 2rem;
+
+  /* =========================
+     TRANSITIONS
+  ========================= */
+
+  --transition-fast: 0.2s ease;
+  --transition-default: 0.3s ease;
+  --transition-slow: 0.5s ease;
 }
