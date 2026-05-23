@@ -31,18 +31,21 @@ export function Sidebar() {
         </li>
       </ul>
 
-      <div>
+      <div className={style.theme}>
         <i className='fas fa-moon'></i>
         Tema escuro
         <button>Ativar</button>
       </div>
 
-      <div>
+      <div className={style.profile}>
         <img src='./assets/profile.png' alt='Profile' />
-        <div>
+        <div >
           Lucas Andrade
           <p>Status</p>
         </div>
+        <button className={style.moreinformation}>
+         <i className='fas fa-ellipsis-v'></i>
+        </button>
       </div>
     </div>
   );
