@@ -1,10 +1,12 @@
+import profile from '../../assets/profile.png';
 import style from './style.module.css';
+import logo from '../../assets/logoFlow.png';
 
 export function Sidebar() {
   return (
     <div className={style.sidebar}>
       <div className={style.logo}>
-        <img src='./assets/logo.png' alt='Logo' />
+        <img src={logo} alt='Logo' />
         <h1>Focus Flow</h1>
       </div>
 
@@ -38,7 +40,7 @@ export function Sidebar() {
       </div>
 
       <div className={style.profile}>
-        <img src='./assets/profile.png' alt='Profile' />
+        <img src={profile} alt='Profile' />
         <div className={style.profileInfo}>
           <p className={style.name}>John Doe</p>
           <p className={style.status}>Status</p>

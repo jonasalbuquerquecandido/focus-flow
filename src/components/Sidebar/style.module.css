@@ -17,7 +17,15 @@ h1 {
   display: flex;
   flex-direction: row;
   align-items: center;
+  width: 100%;
   margin-bottom: 4rem;
+  padding-left: 2rem;
+}
+
+.logo img {
+  width: 2.5rem;
+  height: 2.5rem;
+  margin-right: 1rem;
 }
 
 .menu {
@@ -43,6 +51,7 @@ a {
   color: var(--dark-muted);
   transition: color 0.3s;
   font-size: 1.8rem;
+  text-decoration: none;
 }
 
 .itens:hover {
@@ -51,9 +60,11 @@ a {
 }
 
 .theme {
+  width: 100%;
   background: var(--dark-surface-4);
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 1.5rem;
   margin-top: auto;
   border: 0.1rem solid var(--dark-border);
@@ -72,6 +83,8 @@ a {
 }
 
 .profile {
+  justify-content: center;
+  width: 100%;
   background: var(--dark-surface-4);
   display: flex;
   align-items: center;
