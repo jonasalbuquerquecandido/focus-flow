@@ -5,6 +5,6 @@ type ContainerProps = {
 }
 export function Container({ children }: ContainerProps) {
     return (
-        <h1 className={styles.heading}>{children}</h1>
+        <h1 className={styles.container}>{children}</h1>
     )
 }
