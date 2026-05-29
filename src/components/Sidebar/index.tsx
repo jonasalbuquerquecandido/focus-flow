@@ -12,15 +12,15 @@ export function Sidebar() {
 
       <ul className={style.menu}>
         <li className={style.itens}>
-          <i className='fa-regular fa-house'></i>
-          <a href='#'>Início</a>
+          <i className='fas fa-bolt'></i>
+          <a href='#'>Foco</a>
         </li>
         <li className={style.itens}>
           <i className='fas fa-history'></i>
           <a href='#'>Histórico</a>
         </li>
         <li className={style.itens}>
-          <i className='fas fa-tasks'></i>
+          <i className="fa-solid fa-heart"></i>
           <a href='#'>Hábitos</a>
         </li>
         <li className={style.itens}>
