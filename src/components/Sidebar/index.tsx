@@ -1,14 +1,11 @@
 import profile from '../../assets/profile.png';
 import style from './style.module.css';
-import logo from '../../assets/logoFlow.png';
+import { Logo } from '../Logo/logo';
 
 export function Sidebar() {
   return (
     <div className={style.sidebar}>
-      <div className={style.logo}>
-        <img src={logo} alt='Logo' />
-        <h1>Focus Flow</h1>
-      </div>
+      <Logo/>
 
       <ul className={style.menu}>
         <li className={style.itens}>
