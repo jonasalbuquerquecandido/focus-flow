@@ -1,0 +1,30 @@
+.menu {
+  list-style: none;
+  width: 100%;
+  color: var(--dark-text-secondary);
+}
+
+.itens {
+  display: flex;
+  align-items: center;
+  padding: 1.5rem 2rem;
+  border-radius: 0.8rem;
+  color: var(--dark-muted);
+  transition:
+    0.3s,
+    color 0.3s;
+  gap: 1.5rem;
+}
+
+.itens i,
+a {
+  color: var(--dark-muted);
+  transition: color 0.3s;
+  font-size: 1.8rem;
+  text-decoration: none;
+}
+
+.itens:hover {
+  background: var(--dark-surface-2);
+  color: var(--color-primary);
+}
