@@ -1,3 +1,4 @@
+import { Bell, Sun } from 'lucide-react';
 import style from './style.module.css';
 const name = 'Gustavo';
 
@@ -9,8 +10,8 @@ export function Heading() {
         <p>Vamos manter o foco e alcançar nossos objetivos!</p>
     </div>
     <div className={style.icons}>
-        <i className="fa-regular fa-bell"></i>
-        <i className="fa-solid fa-chart-line"></i>
+        <Bell />
+        <Sun />
     </div>
    </header>
   );
