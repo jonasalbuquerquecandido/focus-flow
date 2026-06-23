@@ -1,15 +1,15 @@
-import style from './style.module.css';
+import styles from './style.module.css';
 import profile from '../../assets/profile.png'
 
 export function UserCard() {
   return (
-    <div className={style.profile}>
+    <div className={styles.profile}>
       <img src={profile} alt='Profile' />
-      <div className={style.profileInfo}>
-        <p className={style.name}>John Doe</p>
-        <p className={style.status}>Status</p>
+      <div className={styles.profileInfo}>
+        <p className={styles.name}>John Doe</p>
+        <p className={styles.status}>Status</p>
       </div>
-      <button className={style.moreinformation}>
+      <button className={styles.moreinformation}>
         <i className='fas fa-ellipsis-v'></i>
       </button>
     </div>
