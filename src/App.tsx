@@ -11,6 +11,8 @@ export function App() {
       <Container>
         <Sidebar />
         <Heading />
+      </Container>
+      <Container>
         <Hero />
       </Container>
     </>
