@@ -1,5 +1,6 @@
-import { Bell, Sun } from 'lucide-react';
 import style from './style.module.css';
+import { Bell, Sun } from 'lucide-react';
+
 const name = 'Gustavo';
 
 export function Heading() {
