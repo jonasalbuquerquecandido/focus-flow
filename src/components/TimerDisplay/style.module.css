@@ -1,8 +1,25 @@
-.focusContainer {
+.timer {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    
-    color: white;
+
+    color: var(--dark-text-muted);
+    gap: 1rem;
+}
+
+.timer span {
+    font-weight: 700;
+}
+
+.timer h1 {
+    font-size: 11rem;
+    font-weight: 600;
+}
+
+.timer p {
+    font-weight: 400;
+    border: .1rem solid var(--dark-text-muted);
+    border-radius: 2rem;
+    padding: 2rem;
 }

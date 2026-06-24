@@ -1,11 +1,14 @@
-.focusContainer {
+.focus {
   display: flex;
   flex-direction: column;
-  gap: 2rem;
 
+  gap: 3rem;
   padding: 2rem;
 
-  border-radius: 12px;
+  border: 0.1rem solid var(--dark-border);
+  border-radius: 2.4rem;
 
-  background: var(--surface);
+  background: var(--dark-surface-2);
+  color: white;
+
 }
