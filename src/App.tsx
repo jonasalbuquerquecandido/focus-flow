@@ -1,20 +1,15 @@
 import './styles/theme.css';
 import './styles/global.css';
-import { Container } from './components/Container';
+import app from './App.module.css'
+
+import { Dashboard } from './pages/DashboardPage';
 import { Sidebar } from './components/Sidebar';
-import { Heading } from './components/Heading';
-import { Hero } from './components/Hero';
 
 export function App() {
   return (
-    <>
-      <Container>
-        <Sidebar />
-        <Heading />
-      </Container>
-      <Container>
-        <Hero />
-      </Container>
-    </>
+    <div className={app.app}>
+      <Sidebar />
+      <Dashboard />
+    </div>
   );
 }

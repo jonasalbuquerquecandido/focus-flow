@@ -3,10 +3,10 @@ import { Bell, Sun } from 'lucide-react';
 
 const name = 'Gustavo';
 
-export function Heading() {
+export function Header() {
   return (
    <header className={style.header}>
-    <div className={style.heading}>
+    <div className={style.header}>
         <h1>Seja bem-vindo <span>{name}</span>!</h1>
         <p>Vamos manter o foco e alcançar nossos objetivos!</p>
     </div>

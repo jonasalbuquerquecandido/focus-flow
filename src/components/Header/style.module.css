@@ -13,20 +13,20 @@
     font-weight: 400;
 }
 
-.heading {
+.header {
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
 }
 
-.heading h1 {
+.header h1 {
     font-size: 3rem;
     font-weight: 500;
     color: var(--primary-color);
     margin-bottom: 1rem;
 }
 
-.heading p {
+.header p {
     font-size: 1.6rem;
     color: var(--dark-text-muted);
 }
